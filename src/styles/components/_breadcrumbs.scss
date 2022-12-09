@@ -1,0 +1,22 @@
+.breadcrumbs {
+  padding: 1em 0 0 0;
+  font-size: 0.875em;
+
+  a {
+    text-decoration: none!important;
+    cursor: pointer;
+    color: black;
+  }
+
+  .connector {
+    margin: 0 0.5em;
+  }
+
+  .current {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1280px) {
+    padding: 0.5em 1em;
+  }
+}

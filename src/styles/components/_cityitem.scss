@@ -1,0 +1,27 @@
+@import '../variable';
+.city {
+  border-bottom: 1px solid gray;
+  padding: 5px 5px 35px 5px;
+
+  .city-image {
+    width: 100%;
+    margin-bottom: 8px;
+    cursor:pointer;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .city-description {
+    margin-top: 8px;
+    font-size: 1.2em;
+    color: $secondary;
+    padding: 10px;
+  }
+  .smiley::before{
+    content: "\01F603";
+  }
+}

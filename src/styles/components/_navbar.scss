@@ -1,0 +1,45 @@
+@import '../variable';
+.navbar {
+  background-color: $primary;
+  padding: 8px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+
+  .search-bar {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+  }
+
+  input {
+    border: none;
+    padding: 8px 15px;
+    outline: none;
+    border-radius: 4px;
+    height: 40px;
+    background-color: #202020;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+  }
+  input::placeholder {
+    color:grey;
+  }
+}
+
+.lang-btn {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  height:40px;
+  outline: none;
+}

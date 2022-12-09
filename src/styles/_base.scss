@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.page-wrapper {
+  padding-top: 75px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.trip-list {
+  max-width: 640px;
+  margin: auto;
+}
+
+.loader {
+  text-align: center;
+  padding: 16px;
+}
