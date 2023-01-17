@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/commitsmart-assessment/static/css/main.0c488280.css",
+    "main.js": "/commitsmart-assessment/static/js/main.eeaa745c.js",
+    "static/js/787.fa4a3be4.chunk.js": "/commitsmart-assessment/static/js/787.fa4a3be4.chunk.js",
+    "index.html": "/commitsmart-assessment/index.html",
+    "main.0c488280.css.map": "/commitsmart-assessment/static/css/main.0c488280.css.map",
+    "main.eeaa745c.js.map": "/commitsmart-assessment/static/js/main.eeaa745c.js.map",
+    "787.fa4a3be4.chunk.js.map": "/commitsmart-assessment/static/js/787.fa4a3be4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c488280.css",
+    "static/js/main.eeaa745c.js"
+  ]
+}
