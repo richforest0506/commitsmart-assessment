@@ -4,15 +4,16 @@ import { useAppSelector } from '../app/hooks';
 import { curDestination } from '../features/destinationSlice';
 import BreadCrumb from "../components/Breadcrumb";
 import DestinationDetail from "../components/Destination/DestinationDetail";
+import base_url from "../routes/url";
 
 const parentPages = [
   {
     name: 'home',
-    path: '/'
+    path: base_url
   },
   {
     name: 'Destination',
-    path: '/'
+    path: base_url
   }
 ]
 

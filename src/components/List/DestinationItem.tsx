@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../../app/hooks";
 import { setDestination } from "../../features/destinationSlice";
 import { IDestination } from "../../types/interface";
+import base_url from "../../routes/url";
 
 interface Prop {
   destination: IDestination
@@ -15,7 +16,7 @@ const DestinationItem: FC<Prop> = ({ destination }: Prop) => {
 
   const onClickHandler = () => {
     dispatch(setDestination(destination));
-    navigate('/Destination/' + destination.name);
+    navigate(base_url +'Destination/' + destination.name);
   }
 
   return (

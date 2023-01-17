@@ -2,15 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import BreadCrumb from "../components/Breadcrumb";
 import CitiesList from "../components/List/DestinationsList";
+import base_url from "../routes/url";
 
 const parentPages = [
   {
     name: 'home',
-    path: '/'
+    path: base_url
   },
   {
     name: 'Search',
-    path: '/'
+    path: base_url
   }
 ]
 

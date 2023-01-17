@@ -2,6 +2,7 @@ import { FC, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { SearchBox } from "./SearchBox";
+import base_url from "../routes/url";
 
 enum LANG {
   EN = 'en',
@@ -14,7 +15,7 @@ const NavBar: FC = () => {
   const [lang, setLang] = useState(LANG.EN);
 
   const onSearch = (v: string) => {
-    navigate(v ? '/Search/' + v : '/');
+    navigate(v ? base_url + 'Search/' + v : '');
   }
 
   const changeLang = () => {
@@ -27,7 +28,7 @@ const NavBar: FC = () => {
     <div className="navbar">
       <div className="navbar container">
         <div className="logo">
-          <a href='/'>
+          <a href={base_url}>
             <img
               src="https://tripscout.co/assets/theme/logos/ts-brand-name-7013ea91b1cbad0c5b684283f6fc2a0cdbefaa74f867ed540ddca0d6d56311d3.svg"
               alt="banner" />
